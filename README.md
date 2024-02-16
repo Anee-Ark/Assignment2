@@ -104,7 +104,9 @@ pip install boto3
 - Write a Python function that takes the paths to the CSV file, Grobid extracted text files, and PyPDF extracted text files as input parameters.
 - Inside the function, establish a connection to your AWS S3 bucket using boto3.client('s3').
 
-## CodeLab - https://codelabs-preview.appspot.com/?file_id=1CIDUYXlYAHzT0dEmzzbG8_7XtRR6FLzOiXnSSKuFFSk#0
+## CodeLab - 
+https://codelabs-preview.appspot.com/?file_id=1CIDUYXlYAHzT0dEmzzbG8_7XtRR6FLzOiXnSSKuFFSk#0
+
   ## Contribution
 
 | Contributor | Contributions            | Percentage |
