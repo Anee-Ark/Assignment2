@@ -18,6 +18,6 @@ pip install selenium
 
 ## Description
 
--- Initialization: Importing necessary Selenium modules and initializing a Chrome WebDriver for browser automation.
--- Web Scraping: The script navigates through the CFA Institute's website, handling pagination, extracting URLs of the readings, and dealing with issues such as timeouts and missing elements.
--- Data Extraction and CSV Creation: It processes the collected URLs to extract information like the publication year, introduction, learning outcomes, and summary. This information is then organized and saved into a CSV file.
+- Initialization: Importing necessary Selenium modules and initializing a Chrome WebDriver for browser automation.
+- Web Scraping: The script navigates through the CFA Institute's website, handling pagination, extracting URLs of the readings, and dealing with issues such as timeouts and missing elements.
+- Data Extraction and CSV Creation: It processes the collected URLs to extract information like the publication year, introduction, learning outcomes, and summary. This information is then organized and saved into a CSV file.
