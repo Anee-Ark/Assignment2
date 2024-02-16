@@ -38,6 +38,28 @@ pip install PyPDF2
 ```
 ## Description
 
+PyPDF:
+
+- PyPDF is a Python library for reading and extracting information from PDF files.
+- It provides a simple interface to work with PDF documents, allowing you to access metadata, text content, and page information.
+- The process typically involves creating a PdfReader object from PyPDF, loading a PDF file, and then accessing the pages to extract text.
+- Flow of Code using PyPDF:
+ * Import the PdfReader class from the PyPDF library.
+ * Specify the path of the PDF file.
+ * Create a PdfReader object using the specified PDF file path.
+ * Iterate through the pages using reader.pages and use the extract_text() method to extract text from each page.
+ * Optionally, we can store the extracted text in a data structure (like a list) for further processing or analysis.
+
+GROBID:
+
+- GROBID (GeneRation Of BIbliographic Data) is a machine learning-based tool for extracting and parsing bibliographic information from scholarly documents.
+- It is designed to process PDF documents and extract metadata such as authors, titles, abstracts, references, etc.
+- GROBID is especially useful in the context of academic papers and publications, where structured metadata extraction is crucial.
+- Flow of Code using GROBID:
+ * Install and set up GROBID on your system or use a GROBID web service.
+ * Send the PDF document to the GROBID service for processing.
+ * GROBID uses machine learning models to identify and extract data from the PDF, providing structured data output.
+ * The output include information such as authors, titles, abstracts, affiliations, references and all the text depending on the configuration and model used.
 
 ## Part 3: Move the CSV file (output of part 1) to Snowflake using SQLAlchemy
 
@@ -88,6 +110,6 @@ pip install boto3
 | Contributor | Contributions            | Percentage |
 |-------------|--------------------------|------------|
 | Dev Mithunisvar Premraj       | Web scraping data into CSV File and uploaded them into S3 Bucket     | 33.33%        |
-| Aneesh Koka        | Extracted data from pdf using PyPDF and Grobid | 33.33% |
+| Aneesh Koka        | Extracted data from pdf using PyPDF, Grobid and uploaded into S3 Bucket | 33.33% |
 | Rishabh Shah         | Moved the csv file to Snowflake, created a AWS account and did the documentation | 33.33% |
 
