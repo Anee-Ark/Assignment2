@@ -56,10 +56,8 @@ pip install SQLAlchemy
 ## Description
 
 - Snowflake Connection Setup: Connect to Snowflake and set up the connection parameters.
-
--Data Preparation and Upload: Loads CSV data into a pandas DataFrame, handles missing values, and insert the data into a Snowflake table.
-
--Cleanup and Finalization: Commit the changes made to the Snowflake database and closes the connection.
+- Data Preparation and Upload: Loads CSV data into a pandas DataFrame, handles missing values, and insert the data into a Snowflake table.
+- Cleanup and Finalization: Commit the changes made to the Snowflake database and closes the connection.
 
 ## Part 4: Move the CSV file, txt files extracted from PyPdf and Grobid to S3 bucket. Move the structured metadata of Grobid output to Snowflake
 
