@@ -1,8 +1,9 @@
-# Web Scraping Project with Selenium
+# Assignment 2
+## Web Scraping Project with Selenium
 
 This repository contains a Jupyter Notebook script for automating web scraping tasks using Selenium. The script navigates through the CFA Institute's website, collecting URLs of refresher readings, extracting key information from each, and saving the data in a structured CSV format.
 
-## Prerequisites
+### Prerequisites
 
 Before running the script, ensure you have the following installed:
 - Python
@@ -13,3 +14,10 @@ You can install Selenium using pip:
 
 ```bash
 pip install selenium
+
+### Description
+The script operates in several key steps:
+
+Initialization: Importing necessary Selenium modules and initializing a Chrome WebDriver for browser automation.
+Web Scraping: The script navigates through the CFA Institute's website, handling pagination, extracting URLs of the readings, and dealing with issues such as timeouts and missing elements.
+Data Extraction and CSV Creation: It processes the collected URLs to extract information like the publication year, introduction, learning outcomes, and summary. This information is then organized and saved into a CSV file.
