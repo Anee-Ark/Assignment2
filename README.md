@@ -24,6 +24,7 @@ pip install selenium
 
 | Contributor | Contributions            | Percentage |
 |-------------|--------------------------|------------|
-| Dev Mithunisvar Premraj       | EDA, Data Processing     | 45%        |
+| Dev Mithunisvar Premraj       | Web scraping data into Csv Files and uploaded them into S3 Bucket     | 33.33%        |
+| Dev         | PCA, Feature Engineering, Machine Learning | 55% |
 | Dev         | PCA, Feature Engineering, Machine Learning | 55% |
 
