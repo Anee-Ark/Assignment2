@@ -26,7 +26,7 @@ pip install selenium
 
 | Contributor | Contributions            | Percentage |
 |-------------|--------------------------|------------|
-| Dev Mithunisvar Premraj       | Web scraping data into CSV Files and uploaded them into S3 Bucket     | 33.33%        |
+| Dev Mithunisvar Premraj       | Web scraping data into CSV File and uploaded them into S3 Bucket     | 33.33%        |
 | Dev         | PCA, Feature Engineering, Machine Learning | 55% |
 | Dev         | PCA, Feature Engineering, Machine Learning | 55% |
 
