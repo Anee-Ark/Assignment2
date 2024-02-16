@@ -27,6 +27,6 @@ pip install selenium
 | Contributor | Contributions            | Percentage |
 |-------------|--------------------------|------------|
 | Dev Mithunisvar Premraj       | Web scraping data into CSV File and uploaded them into S3 Bucket     | 33.33%        |
-| Dev         | PCA, Feature Engineering, Machine Learning | 55% |
-| Dev         | PCA, Feature Engineering, Machine Learning | 55% |
+| Aneesh Koka        | Extracted data from pdf using PyPDF and Grobid | 33.33% |
+| Rishabh Shah         | Moved the csv file to Snowflake, created a AWS account and did the documentation | 33.33% |
 
