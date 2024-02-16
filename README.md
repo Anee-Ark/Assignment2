@@ -22,9 +22,11 @@ pip install selenium
 - Web Scraping: The script navigates through the CFA Institute's website, handling pagination, extracting URLs of the readings, and dealing with issues such as timeouts and missing elements.
 - Data Extraction and CSV Creation: It processes the collected URLs to extract information like the publication year, introduction, learning outcomes, and summary. This information is then organized and saved into a CSV file.
 
+  ## Contribution
+
 | Contributor | Contributions            | Percentage |
 |-------------|--------------------------|------------|
-| Dev Mithunisvar Premraj       | Web scraping data into Csv Files and uploaded them into S3 Bucket     | 33.33%        |
+| Dev Mithunisvar Premraj       | Web scraping data into CSV Files and uploaded them into S3 Bucket     | 33.33%        |
 | Dev         | PCA, Feature Engineering, Machine Learning | 55% |
 | Dev         | PCA, Feature Engineering, Machine Learning | 55% |
 
