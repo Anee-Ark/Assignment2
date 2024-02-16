@@ -13,8 +13,7 @@ Before running the script, ensure you have the following installed:
 
 You can install Selenium using pip:
 
-```
-pip install selenium '''
+
 
 ### Description
 The script operates in several key steps:
