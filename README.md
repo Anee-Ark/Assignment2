@@ -1,5 +1,5 @@
 # Assignment 2
-![Architecture Diagram](https://github.com/BigDataIA-Spring2024-Sec1-Team1/demo-repository/blob/main/architecture_diagram.png)
+![Architecture Diagram](https://github.com/devmithun7/Web-Scraping-Using-Python/blob/main/architecture_diagram.png)
 ## Part 1: Web Scraping with Selenium and Beautiful Soup
 
 This repository contains a Jupyter Notebook script for automating web scraping tasks using Selenium. The script navigates through the CFA Institute's website, collecting URLs of refresher readings, extracting key information from each, and saving the data in a structured CSV format.
